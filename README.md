@@ -14,7 +14,8 @@ You will need to use / specify a user profile for chrome. I specified this as pr
 This is required because you need to have credentias in MM 
 
 So the first time you run this program, you will need to set up a few things:
-  - Use the profile specificed in the program, or change it if you want, and add in your MM credentials and restore your wallet using your seed phrase
+  - Line 26....Use the profile specificed in the program, or change it if you want, and add in your MM credentials and restore your wallet using your seed phrase
+  - Line 33....Update your chrome version, in the default script mine is 99
   - You will then set a password, and you will want to update the script 'YOUR PASSWORD HERE' with the pasword you choose
   - Another thing you will need to do manually, is the first time you connect to MM with this profile and navigate to the MM tab, you will need to manually click OK on the popup
         (this is a one time thing, so i didn't automate it)
